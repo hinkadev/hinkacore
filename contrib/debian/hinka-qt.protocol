@@ -1,0 +1,11 @@
+[Protocol]
+exec=hinka-qt '%u'
+protocol=hinka
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

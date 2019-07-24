@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Hinka
+Comment=Hinka P2P Cryptocurrency
+Comment[fr]=Hinka, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Hinka, eşten eşe kriptografik sanal para birimi
+Exec=hinka-qt %u
+Terminal=false
+Type=Application
+Icon=hinka128
+MimeType=x-scheme-handler/hinka;
+Categories=Office;Finance;

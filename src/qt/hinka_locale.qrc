@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/hinka_bg.qm</file>
+        <file alias="ca">locale/hinka_ca.qm</file>
+        <file alias="cs">locale/hinka_cs.qm</file>
+        <file alias="da">locale/hinka_da.qm</file>
+        <file alias="de">locale/hinka_de.qm</file>
+        <file alias="en">locale/hinka_en.qm</file>
+        <file alias="en_US">locale/hinka_en_US.qm</file>
+        <file alias="es">locale/hinka_es.qm</file>
+        <file alias="fi">locale/hinka_fi.qm</file>
+        <file alias="fr_FR">locale/hinka_fr_FR.qm</file>
+        <file alias="hr">locale/hinka_hr.qm</file>
+        <file alias="it">locale/hinka_it.qm</file>
+        <file alias="ja">locale/hinka_ja.qm</file>
+        <file alias="ko_KR">locale/hinka_ko_KR.qm</file>
+        <file alias="nl">locale/hinka_nl.qm</file>
+        <file alias="pl">locale/hinka_pl.qm</file>
+        <file alias="pt">locale/hinka_pt.qm</file>
+        <file alias="pt_BR">locale/hinka_pt_BR.qm</file>
+        <file alias="ro_RO">locale/hinka_ro_RO.qm</file>
+        <file alias="ru">locale/hinka_ru.qm</file>
+        <file alias="sk">locale/hinka_sk.qm</file>
+        <file alias="sv">locale/hinka_sv.qm</file>
+        <file alias="tr">locale/hinka_tr.qm</file>
+        <file alias="uk">locale/hinka_uk.qm</file>
+        <file alias="zh_CN">locale/hinka_zh_CN.qm</file>
+        <file alias="zh_TW">locale/hinka_zh_TW.qm</file>
+    </qresource>
+</RCC>

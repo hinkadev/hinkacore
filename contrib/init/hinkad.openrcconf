@@ -1,0 +1,26 @@
+# /etc/conf.d/hinkad: config file for /etc/init.d/hinkad
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/hinka/hinka.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/hinkad"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/hinkad.pid"
+
+# Where to write hinkad data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/hinkad"
+
+# User and group to own hinkad process
+#BITCOIND_USER="hinka"
+#BITCOIND_GROUP="hinka"
+
+# Path to hinkad executable
+#BITCOIND_BIN="/usr/bin/hinkad"
+
+# Nice value to run hinkad under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

@@ -1,0 +1,26 @@
+[Unit]
+Description=hinka's distributed currency daemon
+After=network.target
+
+[Service]
+User=hinka
+Group=hinka
+
+Type=forking
+PIDFile=/var/lib/hinkad/hinkad.pid
+
+ExecStart=/usr/bin/hinkad -daemon -pid=/var/lib/hinkad/hinkad.pid \
+          -conf=/etc/hinka/hinka.conf -datadir=/var/lib/hinkad
+
+ExecStop=-/usr/bin/hinka-cli -conf=/etc/hinka/hinka.conf \
+         -datadir=/var/lib/hinkad stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
